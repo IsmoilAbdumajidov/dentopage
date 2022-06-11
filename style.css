@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{margin: 0;padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
+.header-content{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('https://cdn.pixabay.com/photo/2020/05/14/02/31/covid-19-5169689_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header-btn{
+    background-color: #00ADEE;
+    border: 2px solid #00ADEE;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all .3s linear;
+}
+.header-btn:hover{
+    background-color: transparent;
+    border: 2px solid #00ADEE;
+    color: #00ADEE; 
+}
+.header li a{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text{
+    display: grid;
+    justify-content: center;
+    width: 900px !important;
+    /* border: 3px solid ; */
+}
+.liner{
+    border-bottom: 5px solid #00ADEE;
+}
+.icon{
+    color: #00AEEF;
+}
+.body{
+    background:linear-gradient(rgba(44, 69, 93,.7),rgba(0, 1, 44,.8)), url('https://cdn.pixabay.com/photo/2020/03/22/08/43/sushi-4956246__340.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.body h6,.body h1{
+    color: #fff;
+}
+.SignIn{
+    background:linear-gradient(rgba(44, 69, 93,.7),rgba(0, 1, 44,.8)), url('https://cdn.pixabay.com/photo/2016/11/14/03/05/surgery-1822458__340.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.SignIn input,.SignIn textarea{
+    background: rgba(0,0,0,.4);
+    border: none;
+    padding: 10px 5px;
+}
+.card-absolut{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.6);
+}
+.contact-link{
+    display: none;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 33%;
+    z-index: 1;
+    transition: all 3s linear;
+}
+.contact-link .contact-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: all .3s linear;
+}
+.contact-link .contact-circle:hover{
+    background-color: #00AEEF;
+    color: #fff;
+}
+.card-hover{
+    transition: all .3s linear;
+}
+.card-hover:hover >.contact-link{
+    display: flex;
+}
+.footer{
+    background:linear-gradient(rgba(44, 69, 93,.7),rgba(0, 1, 44,.8)), url('https://cdn.pixabay.com/photo/2016/11/14/03/05/surgery-1822458__340.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+.contact-footer{
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+    transition: all 3s linear;
+}
+.contact-circle-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: all .3s linear;
+    color:#00AEEF ;
+}
+.contact-circle-footer:hover{
+    background-color: #00AEEF;
+    color: #fff;
+} 
